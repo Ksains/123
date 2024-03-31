@@ -1,0 +1,28 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: white; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+    text-align: center;
+    background-image: url("1670033417_1-pibig-info-p-ochen-krasivie-foni-krasivo-1.jpg");
+    background-size: cover;
+}
+h1 {
+    color: #00a800; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    color: darkorange;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+    color: yellow;
+}
+ul{
+    font-size: 16px;
+    color: aqua;
+}
