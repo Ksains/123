@@ -1,3 +1,16 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
 body {
     font-family: Arial,  sans-serif; /* Семейство шрифтов */
     font-size: 11px; /* Размер основного шрифта в <p></p>  */
@@ -12,11 +25,12 @@ h1 {
     font-size: 24px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
 }
-h2 {
+h2:hover{
     color: darkorange;
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    animation: color-change 3s infinite;
 }
 p {
     font-size: 20px;
@@ -25,4 +39,8 @@ p {
 ul{
     font-size: 16px;
     color: aqua;
+    animation: color-change 3s infinite;
+}
+h1:hover {
+    animation: color-change 3s infinite;
 }
